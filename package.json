@@ -1,0 +1,19 @@
+{
+  "name": "astronaut-training",
+  "version": "1.0.0",
+  "description": "A simple node app to move astronauts around in a training pool",
+  "scripts": {
+    "test": "mocha tests/**/*spec.js",
+    "start": "node src/app.js"
+  },
+  "author": "Emily Sachs",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilysachs/Astronaut-Training.git"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
