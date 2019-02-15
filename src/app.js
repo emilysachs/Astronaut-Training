@@ -2,7 +2,7 @@ function app(){
 	var utils =  require('./utils.js');
 	var Astronaut =  require('../src/Astronaut.js');	
 
-	const inputFile = 'input.txt';
+	const inputFile = 'src/input.txt';
 
 	var inputLines = utils.readInput(inputFile);
 
